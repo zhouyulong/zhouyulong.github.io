@@ -6,10 +6,10 @@
 ---
 #主目录  
 [comment]:[学习Markdown语法](https://xiongmaoyi
-- [**000000_我的小美猫**](http://xiongmaoyi.cn/LearnMarkdown/wenyi)
-- [100000_Learn](http://xiongmaoyi.cn/markdown/book_name/阅读书单.html)
-- [200000_Live](http://xiongmaoyi.cn/markdown/english_learning/index.html)
-- [300000_Work](http://xiongmaoyi.cn/markdown/english_learning/status.html)
+- [**000000_我的小美猫**](http://xiongmaoyi.cn/000000_Peng/wenyi)
+- [100000_Learn](http://xiongmaoyi.cn/100000_Learn/100000_Learn)
+- [200000_Live](http://xiongmaoyi.cn/200000_Live/200000_Live)
+- [300000_Work](http://xiongmaoyi.cn/300000_Work/300000_Work)
 
 
 ---
