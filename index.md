@@ -7,7 +7,7 @@
 ## 从即日起将开始自己的文字生活。正视自己的生活态度。
 
 ---
-## [*个人主页传送门... ...*](http://xiongmaoyi.cn/Homepages.html)
+## [*个人主页传送门... ...*](http://xiongmaoyi.cn/Homepages/Homepages.html)
 
 ---
 ## [*博客园主页传送门... ...*](https://www.cnblogs.com/yulongzhou/)
