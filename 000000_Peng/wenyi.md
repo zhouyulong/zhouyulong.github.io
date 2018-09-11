@@ -60,3 +60,5 @@
 　　　　　　　　　　　　　　　　　
 ######宝儿证件照~~自取~~ 　~~用时自取~~　　~~自行下载~~,　　算了，，自己滚去重拍吧！
 ~~[蓝底](http://xiongmaoyi.cn/900000_ImageOfBlog/wenyi_1_inch/wenyi_lan.png)＼[白底](http://xiongmaoyi.cn/900000_ImageOfBlog/wenyi_1_inch/wenyi_bai.png)＼[红底](http://xiongmaoyi.cn/900000_ImageOfBlog/wenyi_1_inch/wenyi_hong.png)~~
+
+[`Mood`](http://xiongmaoyi.cn/200000_Live/210000_Mood/210000_Mood)
