@@ -1,14 +1,21 @@
-﻿#index
+﻿#index　
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=31654492&auto=1&height=32">
+</iframe>　
 #　　　　　　胜负易分，平衡难控
 ---
 
 
 
- ~~用文字记录自己的历程，千里之行始于足下。~~
- ~~从即日起将开始自己的文字生活。正视自己的生活态度。~~
+ [comment]:~~用文字记录自己的历程，千里之行始于足下。~~
+ 
+ [comment]:~~从即日起将开始自己的文字生活。正视自己的生活态度。~~
+ 
 ------------------------以下2018年09月13日---------------------
-## 自控、自律
-## 控制自己的脾气，不说气话。事实证明，气话除了让事情变得更糟之外并不会有任何积极影响
+## 自控、自律  
+## Don't find fault,find a remedy.
+　　　　　　　　　　　　——Henry Ford
+[comment]: 控制自己的脾气，不说气话。事实证明，气话除了让事情变得更糟之外并不会有任何积极影响
 
 ---
 ## [*个人主页传送门... ...*](http://xiongmaoyi.cn/Homepages/Homepages.html)
