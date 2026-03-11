@@ -37,8 +37,8 @@ features:
     details: Interesting experimental projects, reusable tool components, and complete Agent applications.
     link: /en/projects/
   - icon: 🎓
-    title: PhD Preparation
-    details: Research direction exploration, research logs, advisor and program analysis for graduate school.
+    title: Research Exploration
+    details: Research direction exploration, technology trend analysis, and personal thinking records.
     link: /en/phd-prep/
   - icon: 💡
     title: AI-Assisted Learning
@@ -62,10 +62,10 @@ Systematically studying Multi-Agent systems, planning to reproduce several key p
 
 This is my digital garden, documenting my learning, thinking, and practice in the AI Agent field.
 
-**My Background:**
-- B.S. and M.S. in Computer Science, currently working on AI compute platforms
-- Planning to pursue a Ph.D., focusing on intelligent agents
-- Believer in the combination of engineering and academic research
+**About Me:**
+- Working on AI compute platforms
+- Focused on AI Agent technology development and research
+- Believer in the combination of engineering and cutting-edge research
 
 **Content Principles:**
 - **Depth over Breadth**: Quality over quantity, every post should have substantive value
@@ -75,8 +75,7 @@ This is my digital garden, documenting my learning, thinking, and practice in th
 ## Contact
 
 - GitHub: [@zhouyulong](https://github.com/zhouyulong)
-- Email: [your-email@example.com](mailto:your-email@example.com)
 
 ---
 
-*Last updated: 2024*
+*Last updated: March 11, 2026*

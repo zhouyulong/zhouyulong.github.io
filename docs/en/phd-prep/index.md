@@ -1,22 +1,19 @@
-# PhD Preparation
+# Research Exploration
 
-Documenting my preparation for pursuing a Ph.D.
+Documenting my exploration and thinking about AI Agent research directions.
 
-## 🎯 Goals & Plans
+## 🎯 Current Exploration
 
-### Short-term Goals (Within 1 year)
+### Technical Depth Goals
 
 - [ ] Systematically learn core knowledge in Multi-Agent field
 - [ ] Reproduce 5-10 important papers
 - [ ] Complete 1-2 impactful open-source projects
-- [ ] Publish 1 paper (optional)
-- [ ] Identify target advisors and programs
+- [ ] Deeply understand Agent inference optimization
 
-### Medium-term Goals (2-3 years)
+### Long-term Thinking
 
-- [ ] Enter a top-tier lab for Ph.D. studies
-- [ ] Determine specific research direction
-- [ ] Build academic network
+Keeping an open mind about deep research, exploring possibilities at the intersection of academia and engineering.
 
 ## 📚 Research Direction Exploration
 
@@ -26,28 +23,16 @@ Documenting my preparation for pursuing a Ph.D.
 
 | Direction | Interest | Fit | Prospect | Notes |
 |-----------|----------|-----|----------|-------|
-| Multi-Agent Systems | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Top choice |
+| Multi-Agent Systems | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Primary focus |
 | Agent Inference Optimization | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Leverage existing strengths |
-| Agent Safety & Alignment | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Important but competitive |
-| Embodied AI | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Requires hardware resources |
+| Agent Safety & Alignment | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Continuous attention |
+| Embodied AI | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Long-term interest |
 
 ## 📝 Research Log
 
 [View research log →](/en/phd-prep/research-log/)
 
-Recording daily research thoughts, reading notes, and idea evolution.
-
-## 🎓 Target Advisors/Programs
-
-*Under investigation...*
-
-## 📖 Application Materials
-
-- [ ] CV/Resume
-- [ ] Research Statement
-- [ ] Recommendation letters preparation
-- [ ] Transcripts
-- [ ] Language scores (if needed)
+Recording thoughts, reading notes, and idea evolution during the learning process.
 
 ## 💡 Daily Question
 
@@ -55,4 +40,4 @@ Recording daily research thoughts, reading notes, and idea evolution.
 
 ---
 
-*A Ph.D. is a marathon, not a sprint. Be patient and keep accumulating.*
+*Stay curious, keep exploring.*

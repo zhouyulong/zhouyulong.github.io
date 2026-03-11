@@ -7,7 +7,7 @@ hero:
   tagline: "从算力平台到智能体前沿——记录AI原生时代的探索与思考"
   image:
     src: /logo.svg
-    alt: Yulong Zhou
+    alt: zhouyuloong
   actions:
     - theme: brand
       text: "开始探索"

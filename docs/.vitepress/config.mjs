@@ -33,7 +33,7 @@ const zhConfig = {
   label: '简体中文',
   lang: 'zh-CN',
   link: '/zh/',
-  title: '周玉龙',
+  title: 'zhouyuloong',
   description: 'AI Agent 研究与工程 - 从算力平台到智能体前沿',
 
   themeConfig: {
@@ -49,7 +49,7 @@ const zhConfig = {
           { text: '项目展示', link: '/zh/projects/' },
         ]
       },
-      { text: '读博预备', link: '/zh/phd-prep/' },
+      { text: '研究探索', link: '/zh/phd-prep/' },
     ],
 
     sidebar: {
@@ -85,9 +85,9 @@ const zhConfig = {
       ],
       '/zh/phd-prep/': [
         {
-          text: '读博预备',
+          text: '研究探索',
           items: [
-            { text: '规划与目标', link: '/zh/phd-prep/' },
+            { text: '探索与思考', link: '/zh/phd-prep/' },
             { text: '研究方向探索', link: '/zh/phd-prep/research-directions' },
             { text: '研究日志', link: '/zh/phd-prep/research-log/' },
           ]
@@ -148,7 +148,7 @@ const enConfig = {
           { text: 'Projects', link: '/en/projects/' },
         ]
       },
-      { text: 'PhD Prep', link: '/en/phd-prep/' },
+      { text: 'Research', link: '/en/phd-prep/' },
     ],
 
     sidebar: {
@@ -184,9 +184,9 @@ const enConfig = {
       ],
       '/en/phd-prep/': [
         {
-          text: 'PhD Preparation',
+          text: 'Research Exploration',
           items: [
-            { text: 'Plans & Goals', link: '/en/phd-prep/' },
+            { text: 'Exploration', link: '/en/phd-prep/' },
             { text: 'Research Directions', link: '/en/phd-prep/research-directions' },
             { text: 'Research Log', link: '/en/phd-prep/research-log/' },
           ]
@@ -258,7 +258,7 @@ export default withMermaid(defineConfig({
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Yulong Zhou'
+      copyright: 'Copyright © 2026-present zhouyuloong'
     }
   }
 }))
