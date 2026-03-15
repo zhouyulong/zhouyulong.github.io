@@ -39,57 +39,103 @@ const zhConfig = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/zh/' },
-      { text: '关于我', link: '/zh/about/' },
+      { text: '论文', link: '/papers/' },
+      { text: '知识库', link: '/knowledge/' },
+      { text: '实验', link: '/lab/' },
+      { text: '博客', link: '/blog/' },
       {
-        text: '内容',
+        text: '更多',
         items: [
-          { text: 'Agent 实验室', link: '/zh/agent-lab/' },
-          { text: '论文显微镜', link: '/zh/papers/' },
-          { text: '学习笔记', link: '/zh/notes/' },
-          { text: '项目展示', link: '/zh/projects/' },
+          { text: '关于我', link: '/about/' },
+          { text: '项目', link: '/projects/' },
+          { text: '研究', link: '/research/' },
         ]
       },
-      { text: '研究探索', link: '/zh/phd-prep/' },
     ],
 
     sidebar: {
-      '/zh/agent-lab/': [
+      '/papers/': [
         {
-          text: 'Agent 实验室',
+          text: '论文中心',
           items: [
-            { text: '概述', link: '/zh/agent-lab/' },
-            { text: 'Agent 演化树', link: '/zh/agent-lab/evolution-tree' },
-            { text: '复现笔记', link: '/zh/agent-lab/reproduction/' },
-            { text: '动手项目', link: '/zh/agent-lab/projects/' },
+            { text: '概览', link: '/papers/' },
+            { text: '待读论文池', link: '/papers/todo-queue' },
+            { text: '阅读统计', link: '/papers/reading-stats' },
+          ]
+        },
+        {
+          text: '阅读笔记',
+          collapsed: false,
+          items: [
+            { text: '笔记模板', link: '/papers/notes/_template' },
+            {
+              text: '2024',
+              collapsed: true,
+              items: [
+                { text: 'AutoGen 论文', link: '/papers/notes/2024/2024-03-autogen-paper' },
+              ]
+            }
+          ]
+        },
+        {
+          text: '复现项目',
+          collapsed: true,
+          items: [
+            { text: '概览', link: '/papers/repro/' },
           ]
         }
       ],
-      '/zh/papers/': [
+      '/knowledge/': [
         {
-          text: '论文显微镜',
+          text: '知识体系',
           items: [
-            { text: '论文列表', link: '/zh/papers/' },
-            { text: '阅读方法论', link: '/zh/papers/reading-method' },
+            { text: '概览', link: '/knowledge/' },
+            { text: '论文阅读方法论', link: '/knowledge/paper-reading-method/' },
+            { text: 'Agent 演化', link: '/knowledge/agent-evolution/' },
+            { text: '基础设施视角', link: '/knowledge/infra-perspective/' },
           ]
         }
       ],
-      '/zh/notes/': [
+      '/lab/': [
         {
-          text: '学习笔记',
+          text: '实验室',
           items: [
-            { text: '笔记首页', link: '/zh/notes/' },
-            { text: '一周 Agent 见闻', link: '/zh/notes/weekly-agent-news' },
-            { text: '基础设施视角', link: '/zh/notes/infra-perspective/' },
+            { text: '概览', link: '/lab/' },
+            { text: '项目', link: '/lab/projects' },
+            { text: '复现索引', link: '/lab/repro-index-backup' },
+          ]
+        },
+        {
+          text: '实验记录',
+          collapsed: true,
+          items: [
+            { text: '实验索引', link: '/lab/experiments/' },
           ]
         }
       ],
-      '/zh/phd-prep/': [
+      '/blog/': [
+        {
+          text: '博客',
+          items: [
+            { text: '首页', link: '/blog/' },
+            { text: 'AI 辅助学习', link: '/blog/posts/ai-assisted-learning' },
+          ]
+        },
+        {
+          text: '定期更新',
+          collapsed: false,
+          items: [
+            { text: '一周 Agent 见闻 #1', link: '/blog/posts/2024/03/weekly-agent-news-001' },
+          ]
+        }
+      ],
+      '/research/': [
         {
           text: '研究探索',
           items: [
-            { text: '探索与思考', link: '/zh/phd-prep/' },
-            { text: '研究方向探索', link: '/zh/phd-prep/research-directions' },
-            { text: '研究日志', link: '/zh/phd-prep/research-log/' },
+            { text: '概览', link: '/research/' },
+            { text: '研究方向', link: '/research/directions' },
+            { text: '研究日志', link: '/research/log/' },
           ]
         }
       ]
@@ -138,57 +184,73 @@ const enConfig = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/en/' },
-      { text: 'About', link: '/en/about/' },
+      { text: 'Papers', link: '/en/papers/' },
+      { text: 'Knowledge', link: '/en/knowledge/' },
+      { text: 'Lab', link: '/en/lab/' },
+      { text: 'Blog', link: '/en/blog/' },
       {
-        text: 'Content',
+        text: 'More',
         items: [
-          { text: 'Agent Lab', link: '/en/agent-lab/' },
-          { text: 'Paper Microscope', link: '/en/papers/' },
-          { text: 'Notes', link: '/en/notes/' },
+          { text: 'About', link: '/en/about/' },
           { text: 'Projects', link: '/en/projects/' },
+          { text: 'Research', link: '/en/research/' },
         ]
       },
-      { text: 'Research', link: '/en/phd-prep/' },
     ],
 
     sidebar: {
-      '/en/agent-lab/': [
-        {
-          text: 'Agent Lab',
-          items: [
-            { text: 'Overview', link: '/en/agent-lab/' },
-            { text: 'Agent Evolution Tree', link: '/en/agent-lab/evolution-tree' },
-            { text: 'Reproduction Notes', link: '/en/agent-lab/reproduction/' },
-            { text: 'Hands-on Projects', link: '/en/agent-lab/projects/' },
-          ]
-        }
-      ],
       '/en/papers/': [
         {
-          text: 'Paper Microscope',
+          text: 'Paper Center',
           items: [
-            { text: 'Paper List', link: '/en/papers/' },
-            { text: 'Reading Methodology', link: '/en/papers/reading-method' },
+            { text: 'Overview', link: '/en/papers/' },
+            { text: 'Reading Queue', link: '/en/papers/todo-queue' },
+            { text: 'Statistics', link: '/en/papers/reading-stats' },
+          ]
+        },
+        {
+          text: 'Reading Notes',
+          collapsed: false,
+          items: [
+            { text: 'Note Template', link: '/en/papers/notes/_template' },
           ]
         }
       ],
-      '/en/notes/': [
+      '/en/knowledge/': [
         {
-          text: 'Notes',
+          text: 'Knowledge Base',
           items: [
-            { text: 'Notes Home', link: '/en/notes/' },
-            { text: 'Weekly Agent News', link: '/en/notes/weekly-agent-news' },
-            { text: 'Infra Perspective', link: '/en/notes/infra-perspective/' },
+            { text: 'Overview', link: '/en/knowledge/' },
+            { text: 'Paper Reading Method', link: '/en/knowledge/paper-reading-method/' },
+            { text: 'Agent Evolution', link: '/en/knowledge/agent-evolution/' },
+            { text: 'Infra Perspective', link: '/en/knowledge/infra-perspective/' },
           ]
         }
       ],
-      '/en/phd-prep/': [
+      '/en/lab/': [
         {
-          text: 'Research Exploration',
+          text: 'Lab',
           items: [
-            { text: 'Exploration', link: '/en/phd-prep/' },
-            { text: 'Research Directions', link: '/en/phd-prep/research-directions' },
-            { text: 'Research Log', link: '/en/phd-prep/research-log/' },
+            { text: 'Overview', link: '/en/lab/' },
+            { text: 'Projects', link: '/en/lab/projects' },
+          ]
+        }
+      ],
+      '/en/blog/': [
+        {
+          text: 'Blog',
+          items: [
+            { text: 'Home', link: '/en/blog/' },
+          ]
+        }
+      ],
+      '/en/research/': [
+        {
+          text: 'Research',
+          items: [
+            { text: 'Overview', link: '/en/research/' },
+            { text: 'Directions', link: '/en/research/directions' },
+            { text: 'Research Log', link: '/en/research/log/' },
           ]
         }
       ]
@@ -259,6 +321,13 @@ export default withMermaid(defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026-present zhouyuloong'
+    }
+  },
+  vite: {
+    resolve: {
+      alias: {
+        '@components': '/_components'
+      }
     }
   }
 }))
