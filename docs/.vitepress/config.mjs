@@ -41,16 +41,9 @@ const zhConfig = {
       { text: '首页', link: '/zh/' },
       { text: '论文', link: '/papers/' },
       { text: '知识库', link: '/knowledge/' },
-      { text: '实验', link: '/lab/' },
+      { text: '实验室', link: '/lab/' },
       { text: '博客', link: '/blog/' },
-      {
-        text: '更多',
-        items: [
-          { text: '关于我', link: '/about/' },
-          { text: '项目', link: '/projects/' },
-          { text: '研究', link: '/research/' },
-        ]
-      },
+      { text: '关于', link: '/about/' },
     ],
 
     sidebar: {
@@ -67,21 +60,21 @@ const zhConfig = {
           text: '阅读笔记',
           collapsed: false,
           items: [
-            { text: '笔记模板', link: '/papers/notes/_template' },
             {
               text: '2024',
               collapsed: true,
               items: [
                 { text: 'AutoGen 论文', link: '/papers/notes/2024/2024-03-autogen-paper' },
+                { text: 'ReAct 论文', link: '/papers/notes/2024/2024-04-react-paper' },
               ]
             }
           ]
         },
         {
-          text: '复现项目',
+          text: '复现实验',
           collapsed: true,
           items: [
-            { text: '概览', link: '/papers/repro/' },
+            { text: 'AutoGen 复现', link: '/papers/repro/autogen/' },
           ]
         }
       ],
@@ -91,8 +84,7 @@ const zhConfig = {
           items: [
             { text: '概览', link: '/knowledge/' },
             { text: '论文阅读方法论', link: '/knowledge/paper-reading-method/' },
-            { text: 'Agent 演化', link: '/knowledge/agent-evolution/' },
-            { text: '基础设施视角', link: '/knowledge/infra-perspective/' },
+            { text: 'Agent 技术演化', link: '/knowledge/agent-evolution/' },
           ]
         }
       ],
@@ -101,15 +93,6 @@ const zhConfig = {
           text: '实验室',
           items: [
             { text: '概览', link: '/lab/' },
-            { text: '项目', link: '/lab/projects' },
-            { text: '复现索引', link: '/lab/repro-index-backup' },
-          ]
-        },
-        {
-          text: '实验记录',
-          collapsed: true,
-          items: [
-            { text: '实验索引', link: '/lab/experiments/' },
           ]
         }
       ],
@@ -118,24 +101,7 @@ const zhConfig = {
           text: '博客',
           items: [
             { text: '首页', link: '/blog/' },
-            { text: 'AI 辅助学习', link: '/blog/posts/ai-assisted-learning' },
-          ]
-        },
-        {
-          text: '定期更新',
-          collapsed: false,
-          items: [
             { text: '一周 Agent 见闻 #1', link: '/blog/posts/2024/03/weekly-agent-news-001' },
-          ]
-        }
-      ],
-      '/research/': [
-        {
-          text: '研究探索',
-          items: [
-            { text: '概览', link: '/research/' },
-            { text: '研究方向', link: '/research/directions' },
-            { text: '研究日志', link: '/research/log/' },
           ]
         }
       ]
@@ -188,14 +154,7 @@ const enConfig = {
       { text: 'Knowledge', link: '/en/knowledge/' },
       { text: 'Lab', link: '/en/lab/' },
       { text: 'Blog', link: '/en/blog/' },
-      {
-        text: 'More',
-        items: [
-          { text: 'About', link: '/en/about/' },
-          { text: 'Projects', link: '/en/projects/' },
-          { text: 'Research', link: '/en/research/' },
-        ]
-      },
+      { text: 'About', link: '/en/about/' },
     ],
 
     sidebar: {
@@ -207,13 +166,6 @@ const enConfig = {
             { text: 'Reading Queue', link: '/en/papers/todo-queue' },
             { text: 'Statistics', link: '/en/papers/reading-stats' },
           ]
-        },
-        {
-          text: 'Reading Notes',
-          collapsed: false,
-          items: [
-            { text: 'Note Template', link: '/en/papers/notes/_template' },
-          ]
         }
       ],
       '/en/knowledge/': [
@@ -223,7 +175,6 @@ const enConfig = {
             { text: 'Overview', link: '/en/knowledge/' },
             { text: 'Paper Reading Method', link: '/en/knowledge/paper-reading-method/' },
             { text: 'Agent Evolution', link: '/en/knowledge/agent-evolution/' },
-            { text: 'Infra Perspective', link: '/en/knowledge/infra-perspective/' },
           ]
         }
       ],
@@ -232,7 +183,6 @@ const enConfig = {
           text: 'Lab',
           items: [
             { text: 'Overview', link: '/en/lab/' },
-            { text: 'Projects', link: '/en/lab/projects' },
           ]
         }
       ],
@@ -241,16 +191,6 @@ const enConfig = {
           text: 'Blog',
           items: [
             { text: 'Home', link: '/en/blog/' },
-          ]
-        }
-      ],
-      '/en/research/': [
-        {
-          text: 'Research',
-          items: [
-            { text: 'Overview', link: '/en/research/' },
-            { text: 'Directions', link: '/en/research/directions' },
-            { text: 'Research Log', link: '/en/research/log/' },
           ]
         }
       ]
