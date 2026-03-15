@@ -7,71 +7,35 @@ giscus: true
 
 这里是我收集的、准备阅读的论文。欢迎通过下方评论推荐论文！
 
-## 阅读计划（按优先级）
+---
 
-### 🔥 近期必读（本月）
-- [ ] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation**
-  - 作者：Microsoft Research
-  - 原因：Multi-Agent 基础框架，理解多 Agent 对话机制
-  - 计划时间：本周
-  - 链接：[arXiv](https://arxiv.org/abs/2308.08155)
+## 当前待读论文
 
-- [ ] **ReAct: Synergizing Reasoning and Acting in Language Models**
-  - 作者：Princeton University
-  - 原因：推理+行动经典工作，Agent 基础模式
-  - 计划时间：下周
-  - 链接：[arXiv](https://arxiv.org/abs/2210.03629)
+### Agent Memory（来自[调研成果](../knowledge/agent-memory-research)）
 
-### 📚 候选池（按主题分类）
+| 论文 | 作者 | 年份/会议 | 优先级 | 链接 |
+|------|------|-----------|--------|------|
+| EM-LLM: Human-inspired Episodic Memory for Infinite Context LLMs | Fountas et al., Huawei Noah's Ark Lab | ICLR 2025 | ⭐⭐⭐⭐⭐ | [OpenReview](https://openreview.net/forum?id=BI2int5SAC) |
+| M+: Extending MemoryLLM with Scalable Long-Term Memory | Wang et al., UC San Diego & MIT-IBM | ICML 2025 | ⭐⭐⭐⭐ | [PMLR](https://proceedings.mlr.press/v267/wang25au.html) |
+| MemReasoner: A Memory-augmented LLM Architecture for Multi-hop Reasoning | Ko et al., IBM Research | NeurIPS 2024 | ⭐⭐⭐⭐ | [OpenReview](https://openreview.net/forum?id=ODcMy97cVZ) |
+| Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | Chhikara et al., Mem0 | arXiv 2025 | ⭐⭐⭐⭐ | [arXiv](https://arxiv.org/abs/2504.19413) |
+| MIRIX: Multi-Agent Memory System for LLM-Based Agents | Wang & Chen, UC San Diego & NYU | arXiv 2025 | ⭐⭐⭐⭐ | [arXiv](https://arxiv.org/abs/2507.07957) |
+| Zep: A Temporal Knowledge Graph Architecture for Agent Memory | Chalef et al., Zep AI | arXiv 2025 | ⭐⭐⭐⭐ | [arXiv](https://arxiv.org/abs/2501.13956) |
+| A Survey on the Memory Mechanism of Large Language Model-based Agents | Zhang et al. | ACM Computing Surveys 2025 | ⭐⭐⭐⭐⭐ | [ACM](https://dl.acm.org/doi/10.1145/3748302) |
+| From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | Wu et al. | arXiv 2025 | ⭐⭐⭐⭐ | [arXiv](https://arxiv.org/abs/2504.15965) |
 
-#### Multi-Agent Systems
-| 论文 | 作者 | 年份 | 优先级 |
-|------|------|------|--------|
-| MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework | - | 2023 | ⭐⭐⭐⭐ |
-| CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society | - | 2023 | ⭐⭐⭐⭐ |
-| Multi-Agent Reinforcement Learning: A Selective Overview | - | 2021 | ⭐⭐⭐ |
+---
 
-#### Agent 推理与规划
-| 论文 | 作者 | 年份 | 优先级 |
-|------|------|------|--------|
-| Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | Google | 2022 | ⭐⭐⭐⭐⭐ |
-| Tree of Thoughts: Deliberate Problem Solving with Large Language Models | - | 2023 | ⭐⭐⭐⭐ |
-| Self-Consistency Improves Chain of Thought Reasoning in Language Models | - | 2023 | ⭐⭐⭐⭐ |
+## 阅读计划
 
-#### Agent 与工具使用
-| 论文 | 作者 | 年份 | 优先级 |
-|------|------|------|--------|
-| Toolformer: Language Models Can Teach Themselves to Use Tools | Meta | 2023 | ⭐⭐⭐⭐ |
-| Gorilla: Large Language Model Connected with Massive APIs | UC Berkeley | 2023 | ⭐⭐⭐ |
-| APIBench: A Benchmark for API Learning | - | 2023 | ⭐⭐⭐ |
+| 论文 | 计划阅读时间 | 状态 |
+|------|--------------|------|
+| EM-LLM | 待定 | 📋 待读 |
+| A Survey on the Memory Mechanism... | 待定 | 📋 待读 |
 
-#### Agent 效率与优化
-| 论文 | 作者 | 年份 | 优先级 |
-|------|------|------|--------|
-| Efficient Large Language Models: A Survey | - | 2024 | ⭐⭐⭐⭐ |
-| vLLM: Easy, Fast, and Cheap LLM Serving | - | 2023 | ⭐⭐⭐⭐⭐ |
+---
 
-#### Agent Memory（来自调研成果，详见[知识库](../knowledge/agent-memory-research)）
-| 论文 | 作者 | 年份 | 优先级 |
-|------|------|------|--------|
-| EM-LLM: Human-inspired Episodic Memory for Infinite Context LLMs | Fountas et al., Huawei | ICLR 2025 | ⭐⭐⭐⭐⭐ |
-| M+: Extending MemoryLLM with Scalable Long-Term Memory | Wang et al., UCSD & MIT-IBM | ICML 2025 | ⭐⭐⭐⭐ |
-| MemReasoner: A Memory-augmented LLM Architecture for Multi-hop Reasoning | Ko et al., IBM | NeurIPS 2024 | ⭐⭐⭐⭐ |
-| Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | Chhikara et al., Mem0 | arXiv 2025 | ⭐⭐⭐⭐ |
-| MIRIX: Multi-Agent Memory System for LLM-Based Agents | Wang & Chen, UCSD & NYU | arXiv 2025 | ⭐⭐⭐⭐ |
-| Zep: A Temporal Knowledge Graph Architecture for Agent Memory | Chalef et al., Zep AI | arXiv 2025 | ⭐⭐⭐⭐ |
-| A Survey on the Memory Mechanism of Large Language Model-based Agents | Zhang et al. | ACM CS 2025 | ⭐⭐⭐⭐⭐ |
-| From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | Wu et al. | arXiv 2025 | ⭐⭐⭐⭐ |
-
-## 来源追踪
-
-| 来源 | 论文 | 添加日期 | 备注 |
-|------|------|----------|------|
-| Twitter | AutoGen | 2024-03-01 | 热门框架 |
-| 师兄推荐 | ReAct | 2024-02-28 | 必读经典 |
-| Paper Digest | MetaGPT | 2024-02-20 | - |
-
-## 添加新论文
+## 如何添加新论文
 
 使用以下模板添加：
 
@@ -82,5 +46,17 @@ giscus: true
   - 计划时间：xxx
   - 链接：[arXiv](url)
 ```
+
+---
+
+## 来源追踪
+
+| 来源 | 论文 | 添加日期 | 备注 |
+|------|------|----------|------|
+| 文献调研 | Agent Memory 系列 | 2025-03-15 | [详见调研报告](../knowledge/agent-memory-research) |
+
+---
+
+*待读池只记录真正有意愿阅读的论文，避免信息过载。*
 
 <GiscusComment />

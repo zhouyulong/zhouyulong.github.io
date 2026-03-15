@@ -15,47 +15,30 @@ title: 论文中心
 
 | 状态 | 数量 | 说明 |
 |------|------|------|
-| 📥 待读 | 12 | [查看待读池](./todo-queue) |
-| 📖 阅读中 | 2 | 正在阅读的论文 |
-| ✅ 已完成笔记 | 2 | 已完成阅读笔记 |
-| 🔬 复现中 | 1 | 正在进行复现 |
+| 📥 待读 | 8 | [查看待读池](./todo-queue) |
+| 📖 阅读中 | 0 | 正在阅读的论文 |
+| ✅ 已完成笔记 | 0 | 已完成阅读笔记 |
+| 🔬 复现中 | 0 | 正在进行复现 |
 | ✨ 已复现 | 0 | 完成复现并验证 |
 
 ## 最近阅读
 
-| 论文 | 日期 | 标签 | 状态 | 笔记 |
-|------|------|------|------|------|
-| AutoGen: Enabling Next-Gen LLM Applications | 2024-03-10 | Multi-Agent | ✅ 已读 | [笔记](./notes/2024/2024-03-autogen-paper) |
-| ReAct: Synergizing Reasoning and Acting | 2024-03-05 | Reasoning | ✅ 已读 | [笔记](./notes/2024/2024-04-react-paper) |
+*暂无阅读记录，开始阅读吧！*
 
 ## 按主题浏览
 
-### Multi-Agent Systems
-- [AutoGen](./notes/2024/2024-03-autogen-paper) - 微软多 Agent 对话框架
-- MetaGPT - 多 Agent 协作编程（[待读池](./todo-queue)）
-
-### Reasoning & Planning
-- [ReAct](./notes/2024/2024-04-react-paper) - 推理与行动协同
+### Agent Memory
+- [待读池](./todo-queue) - 8 篇 Agent Memory 方向论文
+- [调研报告](../knowledge/agent-memory-research) - 系统性文献调研
 
 ---
 
 ## 如何添加阅读笔记
 
-### 方法：复制已有笔记
+### 方法：从待读池开始
 
-最简单的方法是复制一个已有笔记，然后修改内容：
-
-```bash
-# 1. 复制已有笔记作为模板
-cp docs/papers/notes/2024/2024-03-autogen-paper.md docs/papers/notes/2024/2024-XX-new-paper.md
-
-# 2. 编辑新文件，填写内容
-# 3. 在本页面的「最近阅读」表格中添加链接
-```
-
-### 笔记文件格式
-
-文件需要包含 front matter（元数据）和正文：
+1. **从待读池选择论文**
+2. **创建笔记文件**：复制以下模板创建新文件
 
 ```markdown
 ---
@@ -67,11 +50,11 @@ url: "https://arxiv.org/abs/..."
 code: "https://github.com/..."
 status: "reading"  # todo/reading/done/rereading
 rating: "⭐⭐⭐⭐⭐"
-tags: ["Multi-Agent", "框架"]
+tags: ["标签1", "标签2"]
 date_started: 2024-03-10
 date_finished: 2024-03-15
 reading_time: "3小时"
-giscus: true  # 开启评论
+giscus: true
 ---
 
 # 论文标题
@@ -79,8 +62,29 @@ giscus: true  # 开启评论
 <GiscusComment />
 
 ## 📋 基本信息
-...
+- **作者**:
+- **会议**:
+- **链接**: [论文]() | [代码]()
+
+## 🎯 一句话总结
+
+## ❓ 问题与动机
+
+## 🔬 方法
+
+## 📊 实验
+
+## 💡 我的思考
+
+## 🔗 相关论文
+
+## 📝 笔记历史
+| 日期 | 动作 | 备注 |
+|------|------|------|
+| 2024-03-10 | 开始阅读 | - |
 ```
+
+3. **更新本页面**：在「最近阅读」表格中添加链接
 
 ### 关键字段说明
 

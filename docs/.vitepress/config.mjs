@@ -71,10 +71,10 @@ const zhConfig = {
           ]
         },
         {
-          text: '复现实验',
+          text: '阅读笔记',
           collapsed: true,
           items: [
-            { text: 'AutoGen 复现', link: '/papers/repro/autogen/' },
+            // 暂无阅读笔记，添加后在此列出
           ]
         }
       ],
