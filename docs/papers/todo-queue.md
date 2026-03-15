@@ -51,6 +51,18 @@ giscus: true
 | Efficient Large Language Models: A Survey | - | 2024 | ⭐⭐⭐⭐ |
 | vLLM: Easy, Fast, and Cheap LLM Serving | - | 2023 | ⭐⭐⭐⭐⭐ |
 
+#### Agent Memory（来自调研成果，详见[知识库](../knowledge/agent-memory-research)）
+| 论文 | 作者 | 年份 | 优先级 |
+|------|------|------|--------|
+| EM-LLM: Human-inspired Episodic Memory for Infinite Context LLMs | Fountas et al., Huawei | ICLR 2025 | ⭐⭐⭐⭐⭐ |
+| M+: Extending MemoryLLM with Scalable Long-Term Memory | Wang et al., UCSD & MIT-IBM | ICML 2025 | ⭐⭐⭐⭐ |
+| MemReasoner: A Memory-augmented LLM Architecture for Multi-hop Reasoning | Ko et al., IBM | NeurIPS 2024 | ⭐⭐⭐⭐ |
+| Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | Chhikara et al., Mem0 | arXiv 2025 | ⭐⭐⭐⭐ |
+| MIRIX: Multi-Agent Memory System for LLM-Based Agents | Wang & Chen, UCSD & NYU | arXiv 2025 | ⭐⭐⭐⭐ |
+| Zep: A Temporal Knowledge Graph Architecture for Agent Memory | Chalef et al., Zep AI | arXiv 2025 | ⭐⭐⭐⭐ |
+| A Survey on the Memory Mechanism of Large Language Model-based Agents | Zhang et al. | ACM CS 2025 | ⭐⭐⭐⭐⭐ |
+| From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | Wu et al. | arXiv 2025 | ⭐⭐⭐⭐ |
+
 ## 来源追踪
 
 | 来源 | 论文 | 添加日期 | 备注 |

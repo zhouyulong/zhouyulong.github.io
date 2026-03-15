@@ -85,6 +85,7 @@ const zhConfig = {
             { text: '概览', link: '/knowledge/' },
             { text: '论文阅读方法论', link: '/knowledge/paper-reading-method/' },
             { text: 'Agent 技术演化', link: '/knowledge/agent-evolution/' },
+            { text: 'Agent Memory 调研', link: '/knowledge/agent-memory-research' },
           ]
         }
       ],
