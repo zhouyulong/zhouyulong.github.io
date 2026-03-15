@@ -58,20 +58,6 @@ const zhConfig = {
         },
         {
           text: '阅读笔记',
-          collapsed: false,
-          items: [
-            {
-              text: '2024',
-              collapsed: true,
-              items: [
-                { text: 'AutoGen 论文', link: '/papers/notes/2024/2024-03-autogen-paper' },
-                { text: 'ReAct 论文', link: '/papers/notes/2024/2024-04-react-paper' },
-              ]
-            }
-          ]
-        },
-        {
-          text: '阅读笔记',
           collapsed: true,
           items: [
             // 暂无阅读笔记，添加后在此列出
@@ -85,7 +71,15 @@ const zhConfig = {
             { text: '概览', link: '/knowledge/' },
             { text: '论文阅读方法论', link: '/knowledge/paper-reading-method/' },
             { text: 'Agent 技术演化', link: '/knowledge/agent-evolution/' },
-            { text: 'Agent Memory 调研', link: '/knowledge/agent-memory-research' },
+          ]
+        },
+        {
+          text: '技术专题',
+          collapsed: false,
+          items: [
+            { text: 'Agent Memory', link: '/knowledge/topics/agent-memory/' },
+            { text: 'Multi-Agent', link: '/knowledge/topics/multi-agent/' },
+            { text: 'RAG', link: '/knowledge/topics/rag/' },
           ]
         }
       ],

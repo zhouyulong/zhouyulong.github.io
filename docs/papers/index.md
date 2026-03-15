@@ -29,7 +29,7 @@ title: 论文中心
 
 ### Agent Memory
 - [待读池](./todo-queue) - 8 篇 Agent Memory 方向论文
-- [调研报告](../knowledge/agent-memory-research) - 系统性文献调研
+- [调研报告](../knowledge/topics/agent-memory/) - 系统性文献调研
 
 ---
 

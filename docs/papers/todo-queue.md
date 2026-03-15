@@ -11,7 +11,7 @@ giscus: true
 
 ## 当前待读论文
 
-### Agent Memory（来自[调研成果](../knowledge/agent-memory-research)）
+### Agent Memory（来自[调研成果](../knowledge/topics/agent-memory/)）
 
 | 论文 | 作者 | 年份/会议 | 优先级 | 链接 |
 |------|------|-----------|--------|------|
@@ -53,7 +53,7 @@ giscus: true
 
 | 来源 | 论文 | 添加日期 | 备注 |
 |------|------|----------|------|
-| 文献调研 | Agent Memory 系列 | 2025-03-15 | [详见调研报告](../knowledge/agent-memory-research) |
+| 文献调研 | Agent Memory 系列 | 2025-03-15 | [详见调研报告](../knowledge/topics/agent-memory/) |
 
 ---
 
