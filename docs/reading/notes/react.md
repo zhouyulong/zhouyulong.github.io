@@ -16,8 +16,6 @@ giscus: true
 
 # ReAct: Synergizing Reasoning and Acting in Language Models
 
-<GiscusComment />
-
 ## 📋 基本信息
 
 - **作者**: Shunyu Yao, Jeffrey Zhao, et al.

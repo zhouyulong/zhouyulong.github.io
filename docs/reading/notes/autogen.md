@@ -16,8 +16,6 @@ giscus: true
 
 # AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
 
-<GiscusComment />
-
 ## 📋 基本信息
 
 - **作者**: Qingyun Wu, Gagan Bansal, Jieyu Zhang, et al.
