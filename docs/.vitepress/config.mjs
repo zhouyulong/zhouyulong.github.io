@@ -32,6 +32,7 @@ export default withMermaid(defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '论文阅读', link: '/reading/' },
+      { text: '知识图谱', link: '/knowledge-graph' },
       { text: '关于', link: '/about/' },
     ],
 
@@ -128,8 +129,14 @@ export default withMermaid(defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@components': '/_components'
+        '@components': '/.vitepress/components'
       }
+    },
+    ssr: {
+      noExternal: ['d3']
+    },
+    optimizeDeps: {
+      include: ['d3']
     }
   }
 }))
