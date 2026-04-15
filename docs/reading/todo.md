@@ -28,7 +28,7 @@ title: 待读论文池
 | 论文 | 计划阅读时间 | 状态 |
 |------|--------------|------|
 | EM-LLM | 待定 | 📋 待读 |
-| A Survey on the Memory Mechanism... | 2026-04-15 | ✅ 已完成 |
+| A Survey on the Memory Mechanism... | 2026-04-10 | ✅ 已完成 |
 
 
 ---
