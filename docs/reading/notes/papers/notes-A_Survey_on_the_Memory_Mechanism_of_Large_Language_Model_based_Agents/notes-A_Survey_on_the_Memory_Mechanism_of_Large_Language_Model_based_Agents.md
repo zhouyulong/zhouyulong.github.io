@@ -73,8 +73,38 @@ To some extent, memory reading and memory writing are collaborative. The memory 
 两类评估方法：1.直接评估，独立评测记忆模块的能力；2.间接评估，通过端对端的智能体任务进行评估，若相关任务能够有效完成，则证明该记忆模块具有价值。
 
 ## Direct Evaluation
+直接评估在之前的研究中被分为两类：主观评价和客观评价。
+### 主观评价(subjective evaluation)
+主要依靠人的主观判断去衡量记忆模块的有效性。评价两个常见视角是：连贯性和合理性。连贯性是指：被召回的记忆是否于当前上下文匹配，并且自然，如果要出去旅行计划，那么召回的应该是和旅行相关的记忆，而非工作相关的记忆。合理性是指：评估被召回的记忆是否合理，内容合理，比如中国在哪里，召回中国在亚洲，而非中国在地球。
 
+### 客观评价(objective evaluation)
+依据数值指标评价记忆模块的有效性，容易评估不同的记忆模块。常包含三个维度：结果正确性（Result Correctness）、引用准确性(Reference Accuracy)以及时间和硬件成本(Time and Hardware cost)。
 
+结果正确性：基于记忆模块回答预设问题，判断回答是否正确，正确率计算$Correctness=\frac{1}{N}\sum_{i=1}^{N}\mathbb{I}\left[a_i=\hat{a}_i \right]$ , $N$是题目数量，$a_i$是问题i的正确答案，$\hat{a}_i$是智能体回答的答案。
+匹配函数通常被表示为：$\mathbb{I}\left[ a_i=\hat{a}_i \right] = \begin{cases}
+  1 & \text{if } a_i=\hat{a}_i \\
+  0 & \text{if } a_i \neq \hat{a}_i
+\end{cases}$
+之前研究思路有代表性的思路：1. 从带有标注标准答案的历史记录中构建问题，并计算召回的记忆能否匹配正确答案的准确率; 2. 生成仅能够从历史对话中回答的问题，将智能体的回答与正确答案进行匹配，并计算匹配的准确率。
+
+引用准确率：评估智能体是否能够正确发现相关记忆，侧重支撑智能体最终决策的中间信息。将检索到的记忆内容与标准答案对比。通常使用F1指标评估引用准确率：$\text{F1}=2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}$，
+其中：精确率$Precision=\frac{TP}{TP+FP}$，召回率$Recall=\frac{TP}{TP+FN}$，$TP$是真阳，$FP$是假阳，$FN$是假阴。
+
+效率（时间和硬件成本）：总时间成本包括记忆适配时间和推理时间。适配时间包括记忆写入和记忆管理，推理时间是读取记忆的时延。内存操作开始到结束小号的时间成为时间损耗。$\Delta{time}=\frac{1}{M}\sum_{i=1}^{M}t_i^{end}-t_i^{start}$
+
+## Indirect Evaluation
+设计需要智能体高度依赖记忆的任务，如果能完成，则证明记忆模块有效。常见任务；对话（conversation），多源问题（Multi-source Question-answering），长上下文应用（Long-context Applications），其他任务(Other Tasks)
+1. 对话
+对话任务的性能可以反映不同记忆模块的有效性。对话场景，评估记忆效果的常用方法：连贯性和参与度（consistency and engagement）。连贯性：智能体的回复与上下文保持一致的程度。参与度（engagement）：反映智能体回复的质量和吸引力，也反映了智能体针对当前对话构建任务性格的能力。
+
+2. 多源问答
+评估来自任务内、跨任务以及外部知识的记忆信息。能够检验智能体记忆在整合不同来源内容方面的能力。
+
+3. 长上下文应用
+   对长上下文而言，段落检索式评估上下文能力重要指标，即在长上下文中找到给定问题或描述的重要段落。
+
+# Memory-enhanced Agent Applications
+增强记忆的智能体应用常见场景：角色扮演与社会模拟、个人助手、开放世界游戏、代码生成、推荐系统、特定领域专家系统以及其他应用场景
 
 # Reference
 1. 长上下文自然语言 2. 缓解不不相关记忆带来的影响-alleviate the impact of irrelevant memory in conversations：Ziheng Huang, Sebastian Gutierrez, Hemanth Kamana, and Stephen MacNeil. Memory sandbox: Transparent and interactive memory management for conversational agents. In Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, pages 1–3, 2023.
@@ -87,4 +117,5 @@ To some extent, memory reading and memory writing are collaborative. The memory 
 9. design a memory controller to decide when to execute memory operations.:[98] Xinnian Liang, Bing Wang, Hui Huang, Shuangzhi Wu, Peihao Wu, Lu Lu, Zejun Ma, and Zhoujun Li. Unleashing infinite-length input capacity for large-scale language models with self-controlled memory system. arXiv preprint arXiv:2304.13343, 2023.
 10. MemGPT:entirely self-directed.[100] Charles Packer, Vivian Fang, Shishir G Patil, Kevin Lin, Sarah Wooders, and Joseph E Gonzalez. Memgpt: Towards llms as operating systems. arXiv preprint arXiv:2310.08560, 2023.
 11. [96] Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, and Hang Zhao. Chatdb: Augmenting llms with databases as their symbolic memory. arXiv preprint arXiv:2306.03901, 2023.
-
+12. 从带有标注标准答案的历史记录中构建问题，并计算召回的记忆能否匹配正确答案的准确率:[96] Chenxu Hu, Jie Fu, Chenzhuang Du, Simian Luo, Junbo Zhao, and Hang Zhao. Chatdb: Augmenting llms with databases as their symbolic memory. arXiv preprint arXiv:2306.03901, 2023.
+13. 
