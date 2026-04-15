@@ -24,13 +24,17 @@ npm run docs:preview
 .
 ├── docs/
 │   ├── .vitepress/      # VitePress config
-│   ├── zh/              # Chinese content
-│   ├── en/              # English content
+│   ├── reading/         # 论文阅读、笔记、调研报告
+│   │   ├── agent-memory/# Agent Memory 专题
+│   │   ├── todo.md      # 待读论文池
+│   │   ├── stats.md     # 阅读统计
+│   │   └── how-to-read.md
 │   ├── public/          # Static assets
-│   └── components/      # Vue components
-├── .github/
-│   └── workflows/       # GitHub Actions
-└── package.json
+│   ├── about.md         # 关于我
+│   ├── index.md         # 首页
+│   └── knowledge-graph.md
+├── package.json
+└── README.md
 ```
 
 ## 🌐 Website
@@ -39,11 +43,10 @@ Visit: [https://zhouyulong.github.io](https://zhouyulong.github.io)
 
 ## 📝 Content
 
-- **Agent Lab** - Hands-on projects and reproduction notes
-- **Paper Microscope** - In-depth paper reading and analysis
-- **Notes** - Learning notes and weekly updates
-- **Projects** - Open source projects showcase
-- **PhD Prep** - Research preparation and planning
+- **论文阅读** - 系统阅读 Agent 领域论文，记录笔记与思考
+- **Agent Memory** - 专注 Agent 记忆机制研究，跟踪最新进展
+- **知识图谱** - 个人知识体系可视化
+- **关于我** - 研究方向与技能栈
 
 ## 🛠️ Tech Stack
 

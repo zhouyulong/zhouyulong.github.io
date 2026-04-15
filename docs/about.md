@@ -13,7 +13,6 @@
 | **Multi-Agent System** | 协作机制、涌现行为、通信优化 | 学习中 |
 | **Agent 推理效率** | 长上下文优化、推理加速、成本分析 | 结合现有经验 |
 | **Agent 安全与对齐** | 可解释性、可控性 | 初步了解 |
-| **具身智能** | 与物理世界交互 | 感兴趣 |
 
 ## 这个网站的目的
 
@@ -32,24 +31,17 @@
 
 **编程语言**
 - Python
-- C++
 - Go
 
 **AI/ML**
 - PyTorch
 - Transformers
 - LangChain / LlamaIndex
-- vLLM / TensorRT-LLM
 
 **基础设施**
 - Kubernetes
-- GPU 集群管理
 - 分布式系统
 
-## 联系方式
-
-- **GitHub**: [@zhouyulong](https://github.com/zhouyulong)
 
 ---
 
-*欢迎交流，特别是关于 Agent 技术、系统优化等话题。*

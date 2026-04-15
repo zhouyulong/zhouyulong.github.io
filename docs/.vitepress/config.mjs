@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid(defineConfig({
+  head: [
+    ['link', { rel: 'stylesheet', href: '/custom.css' }],
+  ],
   title: 'zhouyuloong',
   description: 'AI Agent 研究与工程',
   lang: 'zh-CN',

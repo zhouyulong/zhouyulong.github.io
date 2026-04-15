@@ -4,19 +4,19 @@ layout: home
 hero:
   name: "zhouyuloong"
   text: "AI Agent 研究与工程"
-  tagline: "从算力平台到智能体前沿——记录AI原生时代的探索与思考"
+  tagline: 读论文、跑代码、写思考
   image:
     src: /logo.svg
     alt: zhouyuloong
   actions:
     - theme: brand
-      text: "论文阅读"
+      text: 论文阅读
       link: /reading/
     - theme: alt
-      text: "关于我"
+      text: 关于我
       link: /about/
     - theme: alt
-      text: "GitHub"
+      text: GitHub
       link: https://github.com/zhouyulong
 
 features:
