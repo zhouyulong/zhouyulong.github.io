@@ -4,6 +4,13 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   head: [
     ['link', { rel: 'stylesheet', href: '/custom.css' }],
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['meta', { name: 'theme-color', content: '#5f67ee' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'zh-CN' }],
+    ['meta', { property: 'og:title', content: 'zhouyuloong | AI Agent 研究与工程' }],
+    ['meta', { property: 'og:site_name', content: 'zhouyuloong' }],
+    ['meta', { property: 'og:image', content: 'https://zhouyulong.github.io/og-image.png' }],
   ],
   title: 'zhouyuloong',
   description: 'AI Agent 研究与工程',
@@ -20,16 +27,6 @@ export default withMermaid(defineConfig({
       dark: 'github-dark'
     }
   },
-
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: '#5f67ee' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:locale', content: 'zh-CN' }],
-    ['meta', { property: 'og:title', content: 'zhouyuloong | AI Agent 研究与工程' }],
-    ['meta', { property: 'og:site_name', content: 'zhouyuloong' }],
-    ['meta', { property: 'og:image', content: 'https://zhouyulong.github.io/og-image.png' }],
-  ],
 
   themeConfig: {
     nav: [
@@ -62,8 +59,7 @@ export default withMermaid(defineConfig({
           text: '阅读笔记',
           collapsed: true,
           items: [
-            { text: 'AutoGen', link: '/reading/notes/autogen' },
-            { text: 'ReAct', link: '/reading/notes/react' },
+            { text: 'A Survey on the Memory Mechanism of LLM-based Agents', link: '/reading/agent-memory/notes/paper-A_Survey_on_the_Memory_Mechanism_of_Large_Language_Model_based_Agents/summary' },
           ]
         }
       ]
